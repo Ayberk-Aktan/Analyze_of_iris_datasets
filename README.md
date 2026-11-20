@@ -48,35 +48,63 @@ Her model için aynı `train/test` ayrımı (%70 / %30, `stratify` ile, `random_
 ### ROC Eğrileri ve Karmaşıklık Matrisleri
 
 #### Logistic Regression
-<img src="images/lr_roc.png" width="420"> <img src="images/lr_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/lr_roc.png"> | <img src="images/lr_cm.png"> |
 
 #### Decision Tree
-<img src="images/dt_roc.png" width="420"> <img src="images/dt_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/dt_roc.png"> | <img src="images/dt_cm.png"> |
 
 #### Random Forest
-<img src="images/rf_roc.png" width="420"> <img src="images/rf_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/rf_roc.png"> | <img src="images/rf_cm.png"> |
 
 #### K-Nearest Neighbors
-<img src="images/knn_roc.png" width="420"> <img src="images/knn_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/knn_roc.png"> | <img src="images/knn_cm.png"> |
 
 #### Support Vector Classifier
-<img src="images/svc_roc.png" width="420"> <img src="images/svc_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/svc_roc.png"> | <img src="images/svc_cm.png"> |
 
 #### Gaussian Naive Bayes
-<img src="images/gnb_roc.png" width="420"> <img src="images/gnb_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/gnb_roc.png"> | <img src="images/gnb_cm.png"> |
 
 <details>
 <summary>Gaussian Naive Bayes – özellik başına sınıf yoğunluk dağılımları</summary>
 
-<img src="images/gnb_dist_1.png" width="420"> <img src="images/gnb_dist_2.png" width="420">
-<img src="images/gnb_dist_3.png" width="420"> <img src="images/gnb_dist_4.png" width="420">
-<img src="images/gnb_dist_5.png" width="420"> <img src="images/gnb_dist_6.png" width="420">
-<img src="images/gnb_dist_7.png" width="420"> <img src="images/gnb_dist_8.png" width="420">
+<table>
+<tr>
+<td><img src="images/gnb_dist_1.png"></td>
+<td><img src="images/gnb_dist_2.png"></td>
+</tr>
+<tr>
+<td><img src="images/gnb_dist_3.png"></td>
+<td><img src="images/gnb_dist_4.png"></td>
+</tr>
+<tr>
+<td><img src="images/gnb_dist_5.png"></td>
+<td><img src="images/gnb_dist_6.png"></td>
+</tr>
+<tr>
+<td><img src="images/gnb_dist_7.png"></td>
+<td><img src="images/gnb_dist_8.png"></td>
+</tr>
+</table>
 
 </details>
 
 #### XGBoost
-<img src="images/xgb_roc.png" width="420"> <img src="images/xgb_cm.png" width="420">
+| ROC Eğrisi | Karmaşıklık Matrisi |
+|:---:|:---:|
+| <img src="images/xgb_roc.png"> | <img src="images/xgb_cm.png"> |
 
 ## 4. Kurulum
 
